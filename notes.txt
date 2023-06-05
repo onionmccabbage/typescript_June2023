@@ -25,20 +25,20 @@ Monday
 > TS is DEVELOPMENT TIME ONLY - it NEVER makes it to the end user
 - sometimes it complains 'cannot find console...' - fix with ts-config DOM
 - Typescript why and how
-- tsconfig
+> tsconfig
 - return void and never
 - private...
-- using class and interface for types
+> using class and interface for types
 q - can use the enum type in our 'channels' example
 - best pactice: declare types/interfaces in another module and import that
-- default ts output is ES3, we can --target es2022 (or relevant version)
+> default ts output is ES3, we can --target es2022 (or relevant version)
 - tidy way to see html pages: liveserver (and web browser events)
-- support for older browsers etc.
+> support for older browsers etc.
 - number data type
 - functions and types
 - ES classes
 - ways to run and automate
-- review exercise
+> review exercise
 
 Tuesday
 - brief review so far
