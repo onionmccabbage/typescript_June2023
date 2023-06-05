@@ -29,6 +29,7 @@ Monday
 - return void and never
 - private...
 - using class and interface for types
+q - can use use the enum type in our 'channels' example
 - best pactice: declare types/interfaces in another module and import that
 - default ts output is ES3, we can --target es2022 (or relevant version)
 - tidy way to see html pages: liveserver (and web browser events)

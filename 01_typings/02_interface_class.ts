@@ -33,7 +33,7 @@ class Snap implements Photo {
     }
 }
 
-// we can manually populate an instance
+// we can manually populate an instance - this is called Duck Typing
 let s1 = new Snap({'id':346, 'albumId':3, 'title':'cat', 'thumbnailUrl':'http://nonsuch.ie', 'url':'bbc.co.uk/nope'})
 
 // here is some data. We can make this collection data-type safe
