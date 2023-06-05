@@ -26,7 +26,7 @@ Monday
 - sometimes it complains 'cannot find console...' - fix with ts-config DOM
 - Typescript why and how
 > tsconfig
-- return void and never
+> return void and never
 - private...
 > using class and interface for types
 q - can use the enum type in our 'channels' example
@@ -35,9 +35,9 @@ q - can use the enum type in our 'channels' example
 - tidy way to see html pages: liveserver (and web browser events)
 > support for older browsers etc.
 - number data type
-- functions and types
-- ES classes
-- ways to run and automate
+> functions and types
+> ES classes
+- ways to run and automate: tsc ts-node code runner
 > review exercise
 
 Tuesday
@@ -45,7 +45,7 @@ Tuesday
 - quick refresher on 'dictionary'
 - install coderunner extention - lets us run ts directly
 - generics Array<T>
-- importing modules
+- importing modules especially with web
 - ...how this affects config
 - begin looking at data sources: JSON etc
 - types or interface (or hybrid) - mainly aim for interface, then derive other types
