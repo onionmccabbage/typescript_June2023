@@ -16,6 +16,9 @@ fetchPhotos() // this method will return a Promise
     const i = document.getElementById('thumbnail');
     // without Typescript we MUST use square-brackets
     i.setAttribute('src', d[1]['thumbnailUrl']);
+})
+    .catch((err) => {
+    console.log(err);
 });
 // a quick fix is ...
 // export {} // this makes the current file into a 'module'
