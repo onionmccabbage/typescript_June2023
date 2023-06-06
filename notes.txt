@@ -55,6 +55,9 @@ q - unknown return type
 - https://webpack.js.org/guides/typescript/
 > Promises compared to simple event
 nb tsc --watch will watch for changes
+  - clear the cache
+  - use 'live server'
+  - Fetch is BROWSER ONLY
 > fetch and async-await
 > handling server responses 404 etc.
 > we can specify more than one generic type as <a, b>
