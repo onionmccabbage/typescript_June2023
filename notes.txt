@@ -27,26 +27,27 @@ Monday
 - Typescript why and how
 > tsconfig
 > return void and never
-- private...
+> private...
 > using class and interface for types
 q - can use the enum type in our 'channels' example
 - best pactice: declare types/interfaces in another module and import that
 > default ts output is ES3, we can --target es2022 (or relevant version)
 - tidy way to see html pages: liveserver (and web browser events)
 > support for older browsers etc.
-- number data type
+> number data type
 > functions and types
 > ES classes
 - ways to run and automate: tsc ts-node code runner
 > review exercise
 
 Tuesday
-- brief review so far
+> brief review so far
 - quick refresher on 'dictionary'
 - install coderunner extention - lets us run ts directly
 - generics Array<T>
 - importing modules especially with web
 - ...how this affects config
+q - unknown return type
 - begin looking at data sources: JSON etc
 - types or interface (or hybrid) - mainly aim for interface, then derive other types
 - when/why you would use an Enum, Literal, tuple, Type, Interface 
@@ -54,10 +55,12 @@ Tuesday
 - https://webpack.js.org/guides/typescript/
 - Promises
 - fetch and async-await
+- handling server responses 404 etc.
 - we can specify more than one generic type as <a, b>
 - conventions, best practice, preference...
 - many ways to write functions
 - destructuring
+q - why moduleresolution:node...
 - generator syntax (must use 'function*')
 - type guards: simply use logical 'if' when we need to ensure types manually
 - more on tsconfig: see the docs on tsconfig 
