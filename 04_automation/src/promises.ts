@@ -17,6 +17,7 @@ export const fetchPhotos = async <T>():Promise<Array<T>>=>{
     // fetch will always return a response object
     // which might include json, text, html, xml ...
     try {
+        // CAREFUL 'fetch' ONLY works in a browser
         const response = await fetch(API) // by default this is a 'get' request
         // the response object contains lots of info about the response as well as the actual data
         // this .json() call will return a Promise

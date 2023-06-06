@@ -1,4 +1,4 @@
-Review Exercise 2
+Review Exercise 2 until 3:00
 ================= (use breakout rooms if you like)
 (use 'liveserver' or 'npx http-server' to run the html page)
 
