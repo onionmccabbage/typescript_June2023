@@ -68,15 +68,15 @@ q - why moduleresolution:node...
 - generator syntax (must use 'function*')
 - type guards: simply use logical 'if' when we need to ensure types manually
 - more on tsconfig: see the docs on tsconfig 
-- review exercise
+> review exercise
 
 Wednesday
-- npm init (and webpack)
-- Brief overview of ReactJS (and the ReactJS Typescript template)
+> npm init (and webpack)
+> Brief overview of ReactJS (and the ReactJS Typescript template)
   "moduleResolution": "Node",
-- React with Typescript generics
+> React with Typescript generics
   NB you will need a trailing comma:
-     const fn = async <T,>(): Promise< Array<T- - =>{}
+     const fn = async <T,>(): Promise< Array<T> > =>{}
   https://devtrium.com/posts/react-typescript-using-generics-in-react
 
 - more on modules and import (module.exports, type='module' old-skool commonJS etc.)
