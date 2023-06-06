@@ -53,11 +53,11 @@ q - unknown return type
 - when/why you would use an Enum, Literal, tuple, Type, Interface 
   (how to choose one over another depending on what you are doing)
 - https://webpack.js.org/guides/typescript/
-- Promises
+> Promises compared to simple event
 nb tsc --watch will watch for changes
-- fetch and async-await
-- handling server responses 404 etc.
-- we can specify more than one generic type as <a, b>
+> fetch and async-await
+> handling server responses 404 etc.
+> we can specify more than one generic type as <a, b>
 - conventions, best practice, preference...
 - many ways to write functions
 - destructuring

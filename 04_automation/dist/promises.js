@@ -10,7 +10,14 @@ export const fetchPhotos = async () => {
         const response = await fetch(API); // by default this is a 'get' request
         // the response object contains lots of info about the response as well as the actual data
         // this .json() call will return a Promise
-        return response.json(); // Javascript automaticaly converts the json to a structure
+        console.log(response);
+        // check the status of the rsponse
+        if (response['status'] == 200) {
+            return response.json(); // Javascript automaticaly converts the json to a structure
+        }
+        else {
+            // we can handle successful but problematic server response...
+        }
     }
     catch (err) {
         // this will return a Promise containing a string

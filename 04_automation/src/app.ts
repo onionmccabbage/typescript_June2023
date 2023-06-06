@@ -6,7 +6,7 @@ import {fetchPhotos, Photo} from './promises.js'
 // make use of our 'fetch' function
 fetchPhotos() // this method will return a Promise
     // since we have a promise, it is 'thenable'
-    .then( (d:Array<Photo>)=>{ // here we receive the structure from inside the promise
+    .then( (d:Array<Photo>)=>{ // here we receive the structure from inside the promise        
         console.log(d[0].thumbnailUrl) // or ['title']
         // now we can use slices of our data structure
         // to populate bits of the HTML page

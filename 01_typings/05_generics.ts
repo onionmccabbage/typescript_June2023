@@ -5,7 +5,7 @@
     // here is a function to return the zeroeth element of a collection
     // const zeroethElement = (a:Array<any>):any=>{
     // the '<T>' tells TS we will be using a generic type
-    const zeroethElement = <T>(a:Array<T>):T=>{
+    const zeroethElement = <T, S>(a:Array<T>):T | S=>{
         return a[0]
     }
 
