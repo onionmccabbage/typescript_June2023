@@ -43,21 +43,21 @@ q - can use the enum type in our 'channels' example
 Tuesday
 > brief review so far
 - quick refresher on 'dictionary'
-- install coderunner extention - lets us run ts directly
-- generics Array<T>
-- importing modules especially with web
+> install coderunner extention - lets us run ts directly
+> generics Array<T>
+> importing modules especially with web: type='module'
 - ...how this affects config
 q - unknown return type
-- begin looking at data sources: JSON etc
+> begin looking at data sources: JSON etc
 - types or interface (or hybrid) - mainly aim for interface, then derive other types
 - when/why you would use an Enum, Literal, tuple, Type, Interface 
   (how to choose one over another depending on what you are doing)
 - https://webpack.js.org/guides/typescript/
 > Promises compared to simple event
 nb tsc --watch will watch for changes
-  - clear the cache
-  - use 'live server'
-  - Fetch is BROWSER ONLY
+  > clear the cache
+  > use 'live server'
+  > Fetch is BROWSER ONLY
 > fetch and async-await
 > handling server responses 404 etc.
 > we can specify more than one generic type as <a, b>
