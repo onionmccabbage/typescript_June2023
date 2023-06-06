@@ -11,7 +11,11 @@ fetchPhotos() // this method will return a Promise
     // to populate bits of the HTML page
     // we can grab parts of the DOM
     const c = document.getElementById('content');
-    c.innerHTML = d[0]['title']; // or .title
+    c.innerHTML = d[1]['title']; // or .title
+    // we now grab the img tag
+    const i = document.getElementById('thumbnail');
+    // without Typescript we MUST use square-brackets
+    i.setAttribute('src', d[1]['thumbnailUrl']);
 });
 // a quick fix is ...
 // export {} // this makes the current file into a 'module'
