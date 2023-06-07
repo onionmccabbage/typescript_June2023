@@ -80,7 +80,7 @@ Wednesday
 - more on modules and import (module.exports, type='module' old-skool commonJS etc.)
 - Observables and RxJS
   see https://rxjs.dev/guide/overview and https://rxmarbles.com/
-- Array<T> and T[] are identical - it's a style choice
+> Array<T> and T[] are identical - it's a style choice
 - final lab
 - where to go next 
   https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html
