@@ -1,20 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Using Observables</title>
-    <!-- NB the script will be injected by the automation toolchain -->
-<script defer src="bundle.js"></script></head>
-<body>
-    <article>
-        <h2>Observables</h2>
-        <section>
-            <input id="search" placeholder="search term" />
-            <hr/>
-            <ul id="results"></ul>
-        </section>
-    </article>   
-</body>
-</html>
+<head><script defer src="bundle.js"></script></head>Html Webpack Plugin:
+<pre>
+Error: Child compilation failed:
+Module not found: Error: Can't resolve 'D:\typescript_June2023\07_observables\node_modules\html-webpack-plugin\lib\loader.js' in 'D:\typescript_June2023\07_observables'
+ModuleNotFoundError: Module not found: Error: Can't resolve 'D:\typescript_June2023\07_observables\node_modules\html-webpack-plugin\lib\loader.js' in 'D:\typescript_June2023\07_observables'
+    at D:\typescript_June2023\07_observables\node_modules\webpack\lib\Compilation.js:2022:28
+    at D:\typescript_June2023\07_observables\node_modules\webpack\lib\NormalModuleFactory.js:817:13
+    at eval (eval at create (D:\typescript_June2023\07_observables\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
+    at D:\typescript_June2023\07_observables\node_modules\webpack\lib\NormalModuleFactory.js:275:22
+    at eval (eval at create (D:\typescript_June2023\07_observables\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+    at D:\typescript_June2023\07_observables\node_modules\webpack\lib\NormalModuleFactory.js:448:22
+    at D:\typescript_June2023\07_observables\node_modules\webpack\lib\NormalModuleFactory.js:118:11
+    at D:\typescript_June2023\07_observables\node_modules\webpack\lib\NormalModuleFactory.js:654:23
+    at D:\typescript_June2023\07_observables\node_modules\neo-async\async.js:2830:7
+    at done (D:\typescript_June2023\07_observables\node_modules\neo-async\async.js:2925:13)</pre>
