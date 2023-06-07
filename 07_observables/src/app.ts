@@ -41,6 +41,7 @@ const appendResults = (container:HTMLElement, results:Array<string>)=>{
 // we can make an observable (aka publisher or broadcaster)
 //by convention we use a trailing $ to indicate an observable
 const keyStream$ = fromEvent(searchBox, 'keyup').pipe( // we tend to carry out several things on our observable
+    debounceTime(500), // don't respond to anything less than 0.5 seconds
     map( (event)=>{
         // in ES the origin ofany event is the event.target
         const input = event.target as HTMLInputElement

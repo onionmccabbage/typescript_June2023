@@ -1,5 +1,6 @@
 Review Exercise 3
 ================= 
+optional - teams or individual, breakout roms, interpret however...
 Build an app where the user can access data from the Star Wars API at
     https://swapi.dev/api/
  
@@ -9,9 +10,9 @@ Pass in the category and an IDs
 Show results nicely   
 
 Notes:
-- consider an observable (but you dont HAVE to use)
+- consider an observable for the category (but you dont HAVE to use)
 - can we use an enum for the 'category' field (or retreive from API)
-- handle out-of-bounds parameters (e.g. no such category)
+- handle out-of-bounds parameters (e.g. no such category. 404 etc.)
 - aim for modular composition
 - handle server problems (SWAPI vehicles fail for some IDs)
 

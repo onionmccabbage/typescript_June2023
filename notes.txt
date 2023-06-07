@@ -78,7 +78,7 @@ Wednesday
      const fn = async <T,>(): Promise< Array<T> > =>{}
      https://devtrium.com/posts/react-typescript-using-generics-in-react
 - more on modules and import (module.exports, type='module' old-skool commonJS etc.)
-- Observables and RxJS
+> Observables and RxJS
   see https://rxjs.dev/guide/overview and https://rxmarbles.com/
 > Array<T> and T[] are identical - it's a style choice
 - final lab
@@ -95,3 +95,5 @@ Some references
     https://www.typescriptlang.org/
     https://caniuse.com
     https://kangax.github.io/compat-table/es6/
+    https://builtwith.com/
+    
