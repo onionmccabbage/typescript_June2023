@@ -9,11 +9,19 @@
     const fn = (x, y, ...rest)=>{
         // any other parameters end up inside 'rest'
     }
-
 }
 {
     // object destructuring
+    const program = {name:'Play School', presenter:'Floella', started:1976, end:1984 }
+    const {name:n, presenter:p, ...rest } = program
+    console.log(`${n} presented by ${p} between ${rest['started']} and ${rest['end']}}`)
 }
 {
     // tuple destructuring
+    const getMisson = ():[string, string, string]=>{
+        return ['inform', 'educate', 'entertain']
+    }
+
+    const [inf, edu, ent] = getMisson()
+    console.log(inf, edu, ent)
 }

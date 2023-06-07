@@ -90,10 +90,8 @@ Wednesday
 
 
 
-
 Some references
     https://www.typescriptlang.org/
     https://caniuse.com
     https://kangax.github.io/compat-table/es6/
     https://builtwith.com/
-    
