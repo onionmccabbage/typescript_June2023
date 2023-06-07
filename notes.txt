@@ -14,7 +14,7 @@ All my code will be here: https://github.com/onionmccabbage/typescript_June2023
 Monday
 > welcome and tech check
 > choose a folder to work in: install NodeJS/npm then install typescript globaly
- - npm install -g typescript
+  - npm install -g typescript
   - npm install -g ts-node
   - later we may need to npm install types for (e.g.) @angular or @react or custom...
 > Modern ECMAScript version, support, legacy...
@@ -23,36 +23,35 @@ Monday
    - sometimes referred to as ESNext, ES6+
    - recently ES2021, ES2022... (these are all names for JavaScript)
 > TS is DEVELOPMENT TIME ONLY - it NEVER makes it to the end user
-- sometimes it complains 'cannot find console...' - fix with ts-config DOM
+> sometimes it complains 'cannot find console...' - fix with ts-config DOM
 - Typescript why and how
 > tsconfig
 > return void and never
 > private...
 > using class and interface for types
-q - can use the enum type in our 'channels' example
-- best pactice: declare types/interfaces in another module and import that
+q - can we use the enum type in our 'channels' example
+> best pactice: declare types/interfaces in another module and import that
 > default ts output is ES3, we can --target es2022 (or relevant version)
-- tidy way to see html pages: liveserver (and web browser events)
+> tidy way to see html pages: liveserver (and web browser events)
 > support for older browsers etc.
 > number data type
 > functions and types
 > ES classes
-- ways to run and automate: tsc ts-node code runner
+> ways to run and automate: tsc ts-node code runner
 > review exercise
 
 Tuesday
 > brief review so far
-- quick refresher on 'dictionary'
 > install coderunner extention - lets us run ts directly
 > generics Array<T>
 > importing modules especially with web: type='module'
-- ...how this affects config
+> ...how this affects config
 q - unknown return type
 > begin looking at data sources: JSON etc
 - types or interface (or hybrid) - mainly aim for interface, then derive other types
 - when/why you would use an Enum, Literal, tuple, Type, Interface 
   (how to choose one over another depending on what you are doing)
-- https://webpack.js.org/guides/typescript/
+  https://webpack.js.org/guides/typescript/
 > Promises compared to simple event
 nb tsc --watch will watch for changes
   > clear the cache
@@ -66,8 +65,8 @@ nb tsc --watch will watch for changes
 - destructuring
 q - why moduleresolution:node...
 - generator syntax (must use 'function*')
-- type guards: simply use logical 'if' when we need to ensure types manually
-- more on tsconfig: see the docs on tsconfig 
+> type guards: simply use logical 'if' when we need to ensure types manually
+> more on tsconfig: see the docs on tsconfig 
 > review exercise
 
 Wednesday
@@ -77,24 +76,22 @@ Wednesday
 > React with Typescript generics
   NB you will need a trailing comma:
      const fn = async <T,>(): Promise< Array<T> > =>{}
-  https://devtrium.com/posts/react-typescript-using-generics-in-react
-
+     https://devtrium.com/posts/react-typescript-using-generics-in-react
 - more on modules and import (module.exports, type='module' old-skool commonJS etc.)
 - Observables and RxJS
   see https://rxjs.dev/guide/overview and https://rxmarbles.com/
 - Array<T> and T[] are identical - it's a style choice
 - final lab
-  NB for my sample solution remember to npm install then npm run start
 - where to go next 
   https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html
 - end of course feedback
-
-
-
+   https://frameworktraining.typeform.com/to/GprGgfYg
 
 
 
 
 
 Some references
+    https://www.typescriptlang.org/
     https://caniuse.com
+    https://kangax.github.io/compat-table/es6/
