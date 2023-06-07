@@ -61,10 +61,10 @@ nb tsc --watch will watch for changes
 > handling server responses 404 etc.
 > we can specify more than one generic type as <a, b>
 - conventions, best practice, preference...
-- many ways to write functions
+> many ways to write functions
 - destructuring
 q - why moduleresolution:node...
-- generator syntax (must use 'function*')
+> generator syntax (must use 'function*')
 > type guards: simply use logical 'if' when we need to ensure types manually
 > more on tsconfig: see the docs on tsconfig 
 > review exercise
