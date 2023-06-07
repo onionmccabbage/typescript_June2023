@@ -1,0 +1,13 @@
+@import './variables';
+
+// Desktop First
+@mixin respond-to($breakpoint) {
+    @if map-has-key($map: $breakpoints, $key: $breakpoint) {
+        @media screen and (max-width: map-get($map: $breakpoints, $key: $breakpoint)) {
+            @content;
+        }
+    } @else {
+        @warn "Ključ #{$breakpoint} ne postoji u mapi."
+                + "Dostupni ključevi su: #{map-keys($breakpoints)}";
+    }
+}

@@ -1,18 +1,19 @@
-Review Exercise 3 at least until tea break at 3:00 and probably for a while after
+Review Exercise 3 resume review3 until 3:40
 ================= 
-optional - teams or individual, breakout roms, interpret however...
 Build an app where the user can access data from the Star Wars API at
     https://swapi.dev/api/
  
 The API allows several categories of search such as people, planets, species or starships
+
 Pass in the category and an IDs
   e.g. https://swapi.dev/api/people/1 (use back tick syntax)
+
 Show results nicely   
 
 Notes:
-- consider an observable for the category (but you dont HAVE to use)
-- can we use an enum for the 'category' field (or retreive from API)
-- handle out-of-bounds parameters (e.g. no such category. 404 etc.)
+- consider an observable 
+- can we use an enum for the category field (or retreive from API)
+- handle out-of-bounds parameters (e.g. no such category)
 - aim for modular composition
 - handle server problems (SWAPI vehicles fail for some IDs)
 
@@ -26,3 +27,4 @@ Alternative
 -----------
 If you pefer, work on a real API you have
 Or just add functionality to your 'users' project from earlier
+Or try https://ghibliapi.herokuapp.com/people (/films /locations /vehicles /species)

@@ -1,0 +1,33 @@
+@import '../../../assets/styles/abstracts/mixins';
+
+.card {
+    .card-header {
+        padding: 0;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+
+        @include respond-to('md') {
+            height: 200px;
+        }
+
+        @include respond-to('sm') {
+            height: 150px;
+        }
+
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        .card-img-overlay {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: rgba($color: #000000, $alpha: 0.3);
+            text-shadow: 0 0 5x black;
+        }
+    }
+}
